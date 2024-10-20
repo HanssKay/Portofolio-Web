@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Form Login</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="login-container">
+        <div>
+            <img class="gi" src="gi2.png" alt="">
+        </div>
+        <form id="loginForm" onsubmit="return validateLogin()">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p id="errorMessage" class="error-message"></p>
+        </form>
+        <div class="additional-options">
+            <a href="#" class="forgot-password">Forgot Password?</a>
+            <p>Don't have an account? <a href="#" class="sign-up">Sign Up Now</a></p>
+        </div>
+
+        <!-- Login melalui media sosial -->
+        <div class="social-login">
+            <p>Or login with</p>
+            <div class="social-icons">
+                <button class="social-btn google">
+                    <img class="go" src="go.png" alt="">
+                </button>
+                <button class="social-btn facebook">
+                    <img class="fb" src="fb.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+    body {
+    margin: 0;
+    height: 100vh;
+    background-color: #0e0b16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'montserrat', cursive;
+    font-weight: 600;
+    color: #fff;
+}
+
+.login-container {
+    width: 300px;
+    height: 450px;
+    padding: 40px;
+    background-color: #9d9da8;
+    border-radius: 10px;
+    box-shadow: 5px 10px 30px rgba(46, 149, 190, 0.5);
+    text-align: center;
+    /* align-items: start; */
+}
+
+.gi{
+    height: 150px;
+    margin-top: -50px;
+    margin-bottom: -20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.input-group {
+    margin-left: -20px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #0e0b16;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #162447;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #ffcc00;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #e43f5a;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #921c39;
+}
+
+.error-message {
+    color: #ff2e63;
+    margin-top: 10px;
+    font-size: 12px;
+    display: none;
+}
+
+additional-options {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.additional-options p{
+    font-weight: 700;
+    color: #000000;
+}
+
+.additional-options a {
+    /* margin-top: 5px; */
+    color: #162447;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.additional-options a:hover {
+    color: #ff2e63;
+}
+
+/* Gaya untuk login menggunakan media sosial */
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn.google {
+    background-color: #646464;
+}
+
+.social-btn.facebook {
+    /* background-color: #4267B2; */
+}
+
+.social-btn:hover {
+    background-color: #000000;
+}
+
+.fb{
+    height: 30px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+.go{
+    height: 30px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
