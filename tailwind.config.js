@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['porto.html'],
+  content: ['index.html'],
   theme: {
     extend: {
       fontFamily:{
